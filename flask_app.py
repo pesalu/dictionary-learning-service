@@ -10,6 +10,10 @@ from matplotlib import pyplot as plt
 
 app = Flask(__name__)
 
+
+#This controller listens "POST" -request in address "localhost:5000/"
+#One can use e.g. command line tool 'curl' to make 
+#POST request, e.g. '$ curl -F "file=@kiiski.jpg" http://localhost:5000/ > testi.png'
 @app.route("/", methods=["POST"])
 def home():
     
