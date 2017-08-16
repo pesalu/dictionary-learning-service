@@ -62,8 +62,7 @@ def save_dict_img(filename, outputfilename):
 
 if __name__ == "__main__": 
 
-
-    # Returns PIL-image object (PIL = Pillow)
-    # img = toimage(imgm)
-
+    #Take image 'kiiski.jpg' as an input, compute 
+    #dictionary and export dictionary plot to file named 'dict.png'
     save_dict_img('kiiski.jpg', 'dict')
+    
